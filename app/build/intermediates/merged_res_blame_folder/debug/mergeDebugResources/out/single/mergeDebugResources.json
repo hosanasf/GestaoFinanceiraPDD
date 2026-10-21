@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Daniel\\.gradle\\daemon\\8.9\\br.com.gestaofinanceirapdd.app-debug-43:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Daniel\\.gradle\\daemon\\8.9\\br.com.gestaofinanceirapdd.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\.gradle\\daemon\\8.9\\br.com.gestaofinanceirapdd.app-debug-43:\\layout_fragment_lista.xml.flat",
+        "source": "C:\\Users\\Daniel\\.gradle\\daemon\\8.9\\br.com.gestaofinanceirapdd.app-main-45:\\layout\\fragment_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\.gradle\\daemon\\8.9\\br.com.gestaofinanceirapdd.app-debug-43:\\layout_fragment_formulario.xml.flat",
+        "source": "C:\\Users\\Daniel\\.gradle\\daemon\\8.9\\br.com.gestaofinanceirapdd.app-main-45:\\layout\\fragment_formulario.xml"
+    },
+    {
+        "merged": "br.com.gestaofinanceirapdd.app-debug-43:/layout_fragment_formulario.xml.flat",
+        "source": "br.com.gestaofinanceirapdd.app-main-45:/layout/fragment_formulario.xml"
+    }
+]

@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+id btnCancelar
+id btnNovo
+id btnSalvar
+id conteudo
+id edCategoria
+id edData
+id edObservacao
+id edTitulo
+id edValor
+id listaLancamentos
+id spTipo
+id txtTituloFormulario
+layout activity_main
+layout fragment_formulario
+layout fragment_lista
+style Theme.Financas

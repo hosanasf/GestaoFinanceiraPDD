@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/txtTituloFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Novo lançamento"
+            android:textColor="#174536"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Título"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: Compra do mercado"
+            android:textColor="#222222"
+            android:textColorHint="#757575"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categoria"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: Alimentação"
+            android:textColor="#222222"
+            android:textColorHint="#757575"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor (R$)"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0,00"
+            android:textColor="#222222"
+            android:textColorHint="#757575"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo"
+            android:textColor="#222222" />
+
+        <Spinner
+            android:id="@+id/spTipo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data (dd/MM/aaaa)"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="13/10/2026"
+            android:textColor="#222222"
+            android:textColorHint="#757575"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observação (opcional)"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edObservacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Detalhes adicionais"
+            android:textColor="#222222"
+            android:textColorHint="#757575"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="2" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar lançamento"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+</ScrollView>

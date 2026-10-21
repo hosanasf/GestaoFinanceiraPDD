@@ -1,0 +1,4 @@
+br.com.gestaofinanceirapdd.test.app-androidTest-0 C:\Users\Daniel\Documents\GestaoFinanceiraPDD\GestaoFinanceiraPDD\app\build\generated\res\resValues\androidTest\debug
+br.com.gestaofinanceirapdd.test.app-mergeDebugAndroidTestResources-1 C:\Users\Daniel\Documents\GestaoFinanceiraPDD\GestaoFinanceiraPDD\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+br.com.gestaofinanceirapdd.test.app-mergeDebugAndroidTestResources-2 C:\Users\Daniel\Documents\GestaoFinanceiraPDD\GestaoFinanceiraPDD\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+br.com.gestaofinanceirapdd.test.app-debugAndroidTest-3 C:\Users\Daniel\Documents\GestaoFinanceiraPDD\GestaoFinanceiraPDD\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

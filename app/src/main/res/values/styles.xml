@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mudamos de DayNight para Light para impedir que o sistema pinte os textos de branco -->
+    <style name="Theme.Financas" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#245B4A</item>
+        <item name="colorPrimaryVariant">#174536</item>
+        <item name="colorSecondary">#E8B04A</item>
+
+        <!-- Força explicitamente as cores padrão de texto do app para tons escuros -->
+        <item name="android:textColorPrimary">#174536</item>
+        <item name="android:textColorSecondary">#45564D</item>
+        <item name="android:textColorHint">#757575</item>
+
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">#174536</item>
+        <item name="android:navigationBarColor">#174536</item>
+    </style>
+</resources>
